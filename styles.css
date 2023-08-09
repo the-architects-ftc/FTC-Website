@@ -1,37 +1,33 @@
+/* Reset default margin, set font family, and background color */
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: grey;
-    
-    
 }
 
+/* Styling for the navigation bar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: -5px 20px;
+    padding: -5px 20px; 
     color: white;
     font-weight: bold;
-    
-    
-    
 }
 
+/* Styles for the logo */
 .logo {
-    
     align-items: center;
-    
 }
 
-
-
+/* Styling for the logo text */
 .TheArchitects {
     font-size: 50px;
     margin-left: 100px;
 }
 
+/* Styles for the navigation links list */
 .nav-links {
     list-style: none;
     margin: 0;
@@ -42,12 +38,14 @@ body {
     margin-right: 50px;
 }
 
+/* Styling for individual navigation list items */
 .nav-links li {
-    margin:25px;
+    margin: 25px;
     position: relative;
     margin-left: 50px;
 }
 
+/* Styling for navigation links */
 .nav-links a {
     color: white;
     text-decoration: none;
@@ -55,6 +53,7 @@ body {
     transition: color 0.3s;
 }
 
+/* Animation for the line under navigation links on hover */
 .nav-links a::after {
     content: "";
     position: absolute;
@@ -66,36 +65,66 @@ body {
     transition: width 0.3s;
 }
 
+/* Change link color on hover */
 .nav-links a:hover {
     color: #f39c12;
 }
 
+/* Expand line under navigation links on hover */
 .nav-links a:hover::after {
     width: 100%;
 }
 
-.body Title{
-    font-size: 100px;
+/* Styles for a specific title inside a body element*/
+.body title{
+    font-size: 100px; 
 }
 
-.title{
+/* Styling for the class "title" */
+.title {
     font-size: 50px;
     margin-left: 0;
-    
 }
 
-.X{
+/* Styling for a specific element with class "X" */
+.txt {
     position: absolute;
     margin-left: 100px;
     font-weight: bold;
     color: beige;
     bottom: 1100px;
-
 }
-/*THIS IS WHERE YOU ADJUST FONT AND ECT FOR THE CONTENT*/
-.p{
+
+/* Styles for the content paragraphs */
+.p {
     font-size: 20px;
-    font-weight: 0;
+    
     font-family: 'Times New Roman', Times, serif;
     margin: 150px;
+}
+
+
+/* Center aligns content within the button container */
+.button-container {
+    text-align: center;
+}
+
+/* Styles for the animated button */
+.animated-button {
+    background-color: #f39c12; /* Background color */
+    border: none; /* No border */
+    color: white; /* Text color */
+    padding: 12px 24px; /* Padding */
+    font-size: 18px; /* Text size */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Shows pointer on hover */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transitions */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover effect for the animated button */
+.animated-button:hover {
+    background-color: #e67e22; /* Background color on hover */
+    transform: scale(1.05); /* Slight scale increase on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
 }
