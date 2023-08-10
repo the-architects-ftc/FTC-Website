@@ -104,27 +104,3 @@ body {
 }
 
 
-/* Center aligns content within the button container */
-.button-container {
-    text-align: center;
-}
-
-/* Styles for the animated button */
-.animated-button {
-    background-color: #f39c12; /* Background color */
-    border: none; /* No border */
-    color: white; /* Text color */
-    padding: 12px 24px; /* Padding */
-    font-size: 18px; /* Text size */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer; /* Shows pointer on hover */
-    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Smooth transitions */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-/* Hover effect for the animated button */
-.animated-button:hover {
-    background-color: #e67e22; /* Background color on hover */
-    transform: scale(1.05); /* Slight scale increase on hover */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
-}
