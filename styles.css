@@ -18,28 +18,22 @@ body {
 
 /* Styles for the logo */
 .logo_text {
-    margin-left: 200px;
+    margin-left: 300px;
     height: 10px;
     margin-top: -200px;
     transform: rotate(360deg);
 }
 
-.favicon_img{
-    position: relative;
-    width: center;
-    height: center;
-    margin-right: 1170px;
-    
-    
-}
+
+
 
 .logo_img{
-    margin-left: -600px;
-    margin-top: center;
-    margin-bottom: -10px;
+    margin-left: -2275px;
     
 }
-
+.navbar{
+    margin-left: -100px;
+}
 /* Styling for the logo text */
 .TheArchitects {
     font-size: 50px;
