@@ -2,7 +2,8 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: grey;
+    background-image: url(background.png);
+    display: center;
 }
 
 /* Styling for the navigation bar */
@@ -10,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #e8f1f7;
     padding: -5px 20px; 
     color: white;
     font-weight: bold;
@@ -61,7 +62,7 @@ body {
 
 /* Styling for navigation links */
 .nav-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     position: relative;
     transition: color 0.3s;
@@ -75,13 +76,13 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: yellow;
+    background-color: #0a0a0a;
     transition: width 0.3s;
 }
 
 /* Change link color on hover */
 .nav-links a:hover {
-    color: yellow;
+    color: #fffb00;
 }
 
 /* Expand line under navigation links on hover */
