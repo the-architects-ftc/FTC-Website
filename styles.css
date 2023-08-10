@@ -17,14 +17,34 @@ body {
 }
 
 /* Styles for the logo */
-.logo {
-    align-items: center;
+.logo_text {
+    margin-left: 200px;
+    height: 10px;
+    margin-top: -200px;
+    transform: rotate(360deg);
+}
+
+.favicon_img{
+    position: relative;
+    width: center;
+    height: center;
+    margin-right: 1170px;
+    
+    
+}
+
+.logo_img{
+    margin-left: -600px;
+    margin-top: center;
+    margin-bottom: -10px;
+    
 }
 
 /* Styling for the logo text */
 .TheArchitects {
     font-size: 50px;
     margin-left: 100px;
+    
 }
 
 /* Styles for the navigation links list */
@@ -34,8 +54,8 @@ body {
     padding: 0;
     display: flex;
     font-size: 50px;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: -200px;
+    
 }
 
 /* Styling for individual navigation list items */
@@ -61,13 +81,13 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #f39c12;
+    background-color: yellow;
     transition: width 0.3s;
 }
 
 /* Change link color on hover */
 .nav-links a:hover {
-    color: #f39c12;
+    color: yellow;
 }
 
 /* Expand line under navigation links on hover */
