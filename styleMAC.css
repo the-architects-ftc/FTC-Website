@@ -1,6 +1,7 @@
 
 
-@media all and (min-width: 2560px) {
+
+@media all and (min-width: 3024px) {
     /* Reset default margin, set font family, and background color */
     body {
         margin: 0;
@@ -24,11 +25,11 @@
         
     }
     
-    /* the architects logo img*/
+    /* the architects logo img IF UW ANT TO MOVE ARCHITECT LOGO DO IT HERE*/
     .image-container {
         
         height: 0;
-        
+        margin-right: -425px;
         margin-left: 250px;
         margin-top: -930px;
         transform: rotate(360deg);
@@ -67,7 +68,7 @@
         padding: 0;
         display: flex;
         /*change font size for nav bar*/
-        font-size: 55px;
+        font-size: 60px;
         margin-left: -100px;
         font-family: 'Comfortaa', cursive;
         
@@ -126,21 +127,21 @@
         margin-left: 0;
     }
     
-    /* Styling for a specific element with class "X" */
+    /* CHANGING HOME/DONATE/ECT */
     .txt {
         position: absolute;
         margin-top: 20px;
         font-weight: 900;
-        font-size: 70px;
+        font-size: 80px;
         margin-left: 100px;
         color: rgb(0, 0, 0);
         
         font-family: 'Comfortaa', cursive;
     }
     
-    /* Styles for the content paragraphs */
+    /* Styles for the content paragraphs INSERT TEXT HERE */
     .p {
-        font-size: 20px;
+        font-size: 30px;
         
         font-family: 'Comfortaa', cursive;
         margin: 200px;

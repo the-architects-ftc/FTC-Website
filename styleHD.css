@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1920px) {
+@media all and (min-width: 1920px) {
     
     /* Reset default margin, set font family, and background color */
 body {
@@ -47,7 +47,7 @@ body {
     margin-left: -2550px;
     pointer-events: none;
     width: 95px;
-    width: 95px;
+    height: 95px;
     
 }
 
