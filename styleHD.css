@@ -1,9 +1,12 @@
-/* Reset default margin, set font family, and background color */
+
+@media screen and (min-width: 1920px) {
+    
+    /* Reset default margin, set font family, and background color */
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: beige;
-    display: center;
+    
     
 }
 
@@ -22,22 +25,33 @@ body {
 }
 
 /* Styles for the logo */
-.logo_text {
-    margin-left: 200px;
-    height: 10px;
-    margin-top: -925px;
+.image-container {
+    
+    height: 0;
+    
+    margin-left: 250px;
+    margin-top: -700px;
     transform: rotate(360deg);
     pointer-events: none;
 }
 
-
+.image-container img{
+    width: 750px;
+    height: 750px;
+    margin-right: 900px;
+    
+}
 
 
 .logo_img{
-    margin-left: -2500px;
+    margin-left: -2550px;
     pointer-events: none;
+    width: 95px;
+    width: 95px;
     
 }
+
+
 .navbar{
     margin-left: -200px;
     
@@ -57,8 +71,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    font-size: 50px;
-    margin-left: -200px;
+    font-size: 45px;
+    margin-left: -100px;
     font-family: 'Comfortaa', cursive;
     
     
@@ -68,7 +82,7 @@ body {
 .nav-links li {
     margin: 25px;
     position: relative;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: 50px;
     
 }
@@ -107,7 +121,7 @@ body {
 
 /* Styles for a specific title inside a body element*/
 .body title{
-    font-size: 100px; 
+    font-size: 100px;
 }
 
 /* Styling for the class "title" */
@@ -119,11 +133,12 @@ body {
 /* Styling for a specific element with class "X" */
 .txt {
     position: absolute;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 70px;
     margin-left: 100px;
-    font-weight: bold;
-    font-size: 80px;
     color: rgb(0, 0, 0);
-    bottom: 1050px;
+    
     font-family: 'Comfortaa', cursive;
 }
 
@@ -133,7 +148,9 @@ body {
     
     font-family: 'Comfortaa', cursive;
     margin: 200px;
+    margin-top: 150px;
     
 }
-
-
+    
+} 
+    
